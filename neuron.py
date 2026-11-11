@@ -1,10 +1,10 @@
 
 # Nosso primeiro neurônio artificial
 
-entradas = [1, 2, 3]
+entrada = 3
 peso = 3
 bias = 2
-esperados = [4, 6, 8]
+esperado = 5
 taxa = 0.5
 erro = 1
 contador = 0
