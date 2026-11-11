@@ -5,7 +5,7 @@ entrada = 3
 peso = 3
 bias = 2
 esperado = 5
-taxa = 0.5
+taxa = 0.01
 erro = 1
 contador = 0
 
