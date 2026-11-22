@@ -1,13 +1,13 @@
 def ReLU(x):
     return max(x, 0)
 
-def Derivada_ReLU(x):
+def derivada_relu(x):
     return 1 if x > 0 else 0
 
-def Leaky_ReLU(x):
+def leaky_relu(x):
     return x if x > 0 else 0.1 * x
 
-def Derivada_Leaky_ReLU(x):
+def derivada_leaky_relu(x):
     return 1 if x > 0 else 0.1
 
 def Identidade(x):
